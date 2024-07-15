@@ -4,8 +4,6 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-
-
 app.MapPost("/githubwebhooks", (HttpContext context) =>
 {
     Console.ForegroundColor = ConsoleColor.Green;
